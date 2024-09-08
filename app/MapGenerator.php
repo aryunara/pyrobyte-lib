@@ -73,15 +73,15 @@ class MapGenerator
 
         $directory = dirname($this->filePath);
 
-        if (!is_writable($directory)) {
-            throw new CreatingException('Permission denied.');
-        }
-
         if (!is_dir($directory)) {
             $newDirectory = mkdir($directory, 0755, true);
             if (!$newDirectory) {
                 throw new CreatingException('Error while creating a directory.');
             }
+        }
+
+        if (!is_writable($directory)) {
+            throw new CreatingException('Permission denied.');
         }
 
         $mapFile = file_put_contents($this->filePath, $map);
