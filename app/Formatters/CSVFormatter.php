@@ -1,6 +1,6 @@
 <?php
 
-namespace Formatters;
+namespace App\Formatters;
 
 class CSVFormatter implements FormatterInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Formatters;
+namespace App\Formatters;
 
 interface FormatterInterface
 {

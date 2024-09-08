@@ -1,12 +1,14 @@
 <?php
 
-use Exceptions\CreatingException;
-use Exceptions\FormatterException;
-use Exceptions\InvalidDataException;
-use Formatters\CSVFormatter;
-use Formatters\FormatterInterface;
-use Formatters\JSONFormatter;
-use Formatters\XMLFormatter;
+namespace App;
+
+use App\Exceptions\CreatingException;
+use App\Exceptions\FormatterException;
+use App\Exceptions\InvalidDataException;
+use App\Formatters\CSVFormatter;
+use App\Formatters\FormatterInterface;
+use App\Formatters\JSONFormatter;
+use App\Formatters\XMLFormatter;
 
 class MapGenerator
 {

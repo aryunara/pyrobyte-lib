@@ -12,7 +12,8 @@
   ],
   "license": "MIT",
   "require": {
-    "php": "^8.3"
+    "php": "^8.3",
+    "ext-dom": "*"
   },
   "autoload": {
     "psr-4": {
