@@ -1,5 +1,5 @@
 {
-  "name": "aryunara/pyrobyte",
+  "name": "aryunara/pyrobyte-lib",
   "description": "Test task for Pyrobyte.",
   "type": "library",
   "authors": [
@@ -10,6 +10,7 @@
       "role": "web-developer"
     }
   ],
+  "license": "MIT",
   "require": {
     "php": "^8.3"
   },
